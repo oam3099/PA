@@ -53,7 +53,7 @@ var r1=0;
 var cake=0;
 var cal=0;
 function preload() {
-  k = loadImage('https://iili.io/3RuAren.jpg');
+  k = loadImage('https://thumbs.dreamstime.com/b/cyberpenguin-ai-generated-artificial-intelligence-generated-image-penguin-laptop-cyberpenguin-hacking-picture-311001881.jpg');
 }
 function setup() {
   createCanvas(1345, 640);
@@ -74,7 +74,7 @@ fill(211, 215, 226);
 if(b1&&b2&&b3&&b4&&b5&&b6){
 image(k,383,260,600,344);
 if(cake==0){
-alert("Can you guess the location where this photo was taken? \nif yes click on the blue circle at the bottom to go to get the prize, if not click on the red circle to see the answer");
+alert("Do you know if this pengu is you last weekend, or me hacking you with this april fool? \nif yes click on the blue circle at the bottom to go to get the prize, if not click on the red circle to see the answer");
 cake++;}
 }}
 
